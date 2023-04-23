@@ -1,0 +1,20 @@
+// $icons: success failure stand;
+//
+// @each $icon in $icons {
+//   .icon-#{$icon} {
+//     background-image: url(../images/icons/#{$icon}.png);
+//   }
+// }
+
+$colors: (light: white, dark: grey);
+
+@function color($key) {
+  @if not map-has-key($colors, $key){
+    @warn "在 $colors 里没找到 #{$key} 这个key";
+  }
+  @return map-get($colors, $key);
+}
+
+body {
+  background-color: color(grey);
+}

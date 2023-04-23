@@ -1,0 +1,21 @@
+/*! comment1 */
+/* comment2 */
+/* the version is 1.0.1 */
+.alert-info {
+  border-right: 1px;
+}
+
+ul {
+  font-size: 12px;
+  font-color: white;
+  font-background: #cccccc;
+  font-border: 1px solid white;
+}
+ul li {
+  color: black;
+  border: 1px solid white;
+  border-left: 1px;
+  border-right: 5px;
+}
+
+/*# sourceMappingURL=styles.css.map */

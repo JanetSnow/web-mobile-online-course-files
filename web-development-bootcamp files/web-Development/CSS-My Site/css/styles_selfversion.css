@@ -1,0 +1,60 @@
+body {
+  margin:0;
+}
+div {
+  background-color: #E4F9F5;
+  text-align: center;
+  height:600px;
+  position:relative;
+  /*这种只适用于inline elements& full width block elements,所以在其他情况下怎么做
+  使用叫做auto 的value in the margin(e.g. line15),which when applied will center
+   the element either vertically or horizontally*/
+}
+
+h1 {
+  width: 30%;
+  margin: 0 auto 0 auto; /*or 0 auto; */
+  position: absolute;
+  top:100px;
+  left:300px;
+
+}
+p {
+  position: absolute;
+  top:150px;
+  left:350px;
+}
+
+.middle-container {
+  background-color: red;
+  height: 200px;
+  width: 200px;
+}
+
+.bottom-container {
+  background-color: yellow;
+  height: 200px;
+  width: 200px;
+}
+
+span {
+  text-decoration: underline;
+}
+
+/* 也可以在html中写<span class="xx">xx</span>
+然后在css中写.xx {}   */
+.bottom-cloud {
+  position: absolute;
+  top:220px;
+  right:600px;
+}
+.top-cloud {
+  position: absolute;
+  top:50px;
+  left:600px;
+}
+.mountain {
+  position: absolute;
+  top:240px;
+  right:150px;
+}
